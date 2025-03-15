@@ -41,19 +41,19 @@ const Main = () => {
         </div>
         {/* cards */}
         <div className='cards'>
-          <div className='card'>
+          <div className='card' onClick={()=>onSent("Suggest beautiful places to see an upcoming road trip")}>
             <p>Suggest beautiful places to see an upcoming road trip</p>
             <img src={assets.compass_icon} alt="" />
           </div>
-          <div className='card'>
+          <div className='card' onClick={()=>onSent("Brefly summarize this concept: upon planning")}>
             <p>Brefly summarize this concept: upon planning</p>
             <img src={assets.bulb_icon} alt="" />
           </div>
-          <div className='card'>
+          <div className='card' onClick={()=>onSent("BrainStorm team bonding activities for our work retreat")}>
             <p>BrainStorm team bonding activities for our work retreat</p>
             <img src={assets.message_icon} alt="" />
           </div>
-          <div className='card'>
+          <div className='card' onClick={()=>onSent("Improve the readability of the following code")}>
             <p>Improve the readability of the following code</p>
             <img src={assets.code_icon} alt="" />
           </div>
